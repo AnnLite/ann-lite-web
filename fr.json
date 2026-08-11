@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "siteName": "Ann Lite",
+    "tagline": "Prier. Apprendre. Espérer. Servir."
+  },
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "bible": "La Bible",
+    "prayers": "Prières",
+    "reflections": "Réflexions",
+    "donate": "Faire un don",
+    "impact": "Impact",
+    "transparency": "Transparence",
+    "projects": "Projets",
+    "search": "Rechercher",
+    "contact": "Contact",
+    "skipToContent": "Aller directement au contenu"
+  },
+  "footer": {
+    "rights": "Tous droits réservés.",
+    "privacy": "Confidentialité",
+    "terms": "Conditions d'utilisation",
+    "accessibility": "Accessibilité"
+  },
+  "home": {
+    "heroTitle": "Un espace pour prier, apprendre et servir ensemble",
+    "heroSubtitle": "Ann Lite est une plateforme chrétienne qui vous aide à développer votre vie spirituelle — par la prière, la Parole de Dieu et le service envers ceux qui sont dans le besoin.",
+    "ctaPrimary": "Commencer à prier",
+    "ctaSecondary": "Faire un don",
+    "sectionPrayers": "Prières du jour",
+    "sectionReflections": "Dernières réflexions",
+    "sectionImpact": "Impact des dons",
+    "disclaimer": "Ann Lite est un outil pour vous accompagner dans votre foi — il ne remplace ni votre église, ni votre communauté, ni votre relation personnelle avec Dieu."
+  },
+  "donate": {
+    "title": "Faire un don",
+    "intro": "Chaque don nous aide à soutenir des enfants vulnérables, des orphelins et des personnes âgées dans le besoin. Nous ne pouvons promettre aucune bénédiction spirituelle en échange — servir est une réponse à l'amour de Dieu, pas une transaction.",
+    "byCard": "Don par carte bancaire",
+    "byCrypto": "Don en cryptomonnaie",
+    "byCelo": "Don sur le réseau Celo (CELO / cUSD)",
+    "transparencyNote": "Tous les dons en cryptomonnaie sont vérifiables publiquement sur la blockchain Celo."
+  },
+  "impact": {
+    "title": "Impact",
+    "intro": "Voici quelques chiffres clairs sur l'utilisation des dons, issus de rapports financiers vérifiés."
+  },
+  "transparency": {
+    "title": "Transparence",
+    "intro": "Nous croyons que la transparence est un devoir, pas une option. Vérifiez chaque don en cryptomonnaie directement sur la blockchain."
+  },
+  "errors": {
+    "notFound": "Cette page est introuvable.",
+    "generic": "Une erreur est survenue. Veuillez réessayer.",
+    "backendUnavailable": "Ce service n'est pas encore connecté. Ces informations apparaîtront une fois ann-lite-api déployé."
+  }
+}

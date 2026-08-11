@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "siteName": "Ann Lite",
+    "tagline": "Pray. Learn. Hope. Serve."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "bible": "Bible",
+    "prayers": "Prayers",
+    "reflections": "Reflections",
+    "donate": "Donate",
+    "impact": "Impact",
+    "transparency": "Transparency",
+    "projects": "Projects",
+    "search": "Search",
+    "contact": "Contact",
+    "skipToContent": "Skip to content"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "privacy": "Privacy",
+    "terms": "Terms of use",
+    "accessibility": "Accessibility"
+  },
+  "home": {
+    "heroTitle": "A place to pray, learn, and serve together",
+    "heroSubtitle": "Ann Lite is a Christian platform that helps you grow in your spiritual life — through prayer, God's Word, and serving those in need.",
+    "ctaPrimary": "Start praying",
+    "ctaSecondary": "Make a donation",
+    "sectionPrayers": "Today's prayers",
+    "sectionReflections": "Latest reflections",
+    "sectionImpact": "Donation impact",
+    "disclaimer": "Ann Lite is a tool to accompany you in your faith — it does not replace your church, your community, or your personal relationship with God."
+  },
+  "donate": {
+    "title": "Make a donation",
+    "intro": "Every donation helps us support vulnerable children, orphans, and elders in need. We cannot promise any spiritual blessing in exchange — serving is a response to God's love, not a transaction.",
+    "byCard": "Donate by card",
+    "byCrypto": "Donate with crypto",
+    "byCelo": "Donate on the Celo network (CELO / cUSD)",
+    "transparencyNote": "All crypto donations are publicly verifiable on the Celo blockchain."
+  },
+  "impact": {
+    "title": "Impact",
+    "intro": "Clear numbers on how donations are used, drawn from verified financial reports."
+  },
+  "transparency": {
+    "title": "Transparency",
+    "intro": "We believe transparency is a duty, not an option. Verify every crypto donation directly on the blockchain."
+  },
+  "errors": {
+    "notFound": "We couldn't find that page.",
+    "generic": "Something went wrong. Please try again.",
+    "backendUnavailable": "This service isn't connected yet. This information will appear once ann-lite-api is deployed."
+  }
+}

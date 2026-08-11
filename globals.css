@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+/*
+  Ann Lite design tokens.
+  Palette is derived from the official logo: a deep blue field, a warm
+  gold cross/accent, and a warm off-white background — not pure #FFFFFF,
+  to keep the "peaceful, not clinical" feel the brief asks for.
+*/
+@theme {
+  --color-ink-950: #0b1b2b;
+  --color-ink-900: #10263c;
+  --color-blue-700: #163a5c;
+  --color-blue-600: #1d4e78;
+  --color-blue-500: #26618f;
+  --color-gold-600: #b8860f;
+  --color-gold-500: #d4a017;
+  --color-gold-400: #e6b93a;
+  --color-paper-50: #fbf8f2;
+  --color-paper-100: #f4efe4;
+  --color-paper-200: #e9e0cd;
+  --color-line-200: #ded3ba;
+
+  --font-display: "Fraunces", ui-serif, Georgia, serif;
+  --font-body: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  --radius-card: 0.75rem;
+}
+
+html {
+  color-scheme: light;
+}
+
+body {
+  background-color: var(--color-paper-50);
+  color: var(--color-ink-950);
+  font-family: var(--font-body);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+}
+
+/* Visible keyboard focus everywhere — accessibility floor, never removed. */
+:focus-visible {
+  outline: 3px solid var(--color-gold-500);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 100;
+  background: var(--color-paper-50);
+  color: var(--color-ink-950);
+  padding: 0.75rem 1rem;
+  border-radius: 0 0 0.5rem 0;
+}
+
+.skip-link:focus {
+  left: 0;
+}

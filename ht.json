@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "siteName": "Ann Lite",
+    "tagline": "Priye. Aprann. Espere. Sèvi."
+  },
+  "nav": {
+    "home": "Akèy",
+    "about": "Konsènan nou",
+    "bible": "Bib la",
+    "prayers": "Lapriyè",
+    "reflections": "Refleksyon",
+    "donate": "Fè yon don",
+    "impact": "Enpak",
+    "transparency": "Transparans",
+    "projects": "Pwojè yo",
+    "search": "Chèche",
+    "contact": "Kontakte nou",
+    "skipToContent": "Ale dirèk nan kontni an"
+  },
+  "footer": {
+    "rights": "Tout dwa rezève.",
+    "privacy": "Konfidansyalite",
+    "terms": "Kondisyon itilizasyon",
+    "accessibility": "Aksesibilite"
+  },
+  "home": {
+    "heroTitle": "Yon espas pou priye, aprann, epi sèvi ansanm",
+    "heroSubtitle": "Ann Lite se yon platfòm kretyen ki ede w devlope lavi espirityèl ou — nan lapriyè, nan Pawòl Bondye a, epi nan sèvi frè ak sè ki nan bezwen.",
+    "ctaPrimary": "Kòmanse priye",
+    "ctaSecondary": "Fè yon don",
+    "sectionPrayers": "Lapriyè jodi a",
+    "sectionReflections": "Dènye refleksyon yo",
+    "sectionImpact": "Enpak don yo",
+    "disclaimer": "Ann Lite se yon zouti pou akonpaye w nan lafwa w — li pa ranplase legliz ou, kominote w, ni relasyon pèsonèl ou avèk Bondye."
+  },
+  "donate": {
+    "title": "Fè yon don",
+    "intro": "Chak don ede n sipòte timoun vilnerab, òfelina, ak granmoun ki nan bezwen. Nou pa ka pwomèt okenn benediksyon espirityèl an echanj — sèvi se yon fason nou reponn ak lanmou Bondye a, pa yon tranzaksyon.",
+    "byCard": "Don ak kat kredi",
+    "byCrypto": "Don an kripto",
+    "byCelo": "Don sou rezo Celo (CELO / cUSD)",
+    "transparencyNote": "Tout don kripto yo verifyab piblikman sou blockchain Celo a."
+  },
+  "impact": {
+    "title": "Enpak",
+    "intro": "Men kèk nimewo klè sou fason don yo itilize. Chif sa yo soti nan rapò finansye ki verifye."
+  },
+  "transparency": {
+    "title": "Transparans",
+    "intro": "Nou kwè transparans se yon devwa, pa yon opsyon. Verifye chak don kripto dirèkteman sou blockchain la."
+  },
+  "errors": {
+    "notFound": "Nou pa jwenn paj sa a.",
+    "generic": "Gen yon pwoblèm ki pase. Tanpri eseye ankò.",
+    "backendUnavailable": "Sèvis sa a poko konekte. Enfòmasyon sa yo pral parèt lè ann-lite-api deplwaye."
+  }
+}
