@@ -20,6 +20,8 @@ jobs:
           node-version: 20
       - run: npm install --legacy-peer-deps
       - run: npm run deploy:pages
+        env:
+          NEXT_PUBLIC_BASE_PATH: /ann-lite-web
       - uses: actions/configure-pages@v4
       - uses: actions/upload-pages-artifact@v5
         with:

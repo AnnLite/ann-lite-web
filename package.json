@@ -10,7 +10,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "export": "next build && next export",
+    "export": "next build",
     "deploy:pages": "npm run export",
     "start": "next start",
     "lint": "eslint . --max-warnings=0",
