@@ -1,14 +1,45 @@
 <!doctype html>
-<html lang="en">
+<html lang="ht">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Ann Lite</title>
+  <style>
+    :root{--blue:#163a5c;--gold:#d4a017;--paper:#fbf8f2;--ink:#10263c}
+    body{font-family:Inter,system-ui,Arial,Helvetica,sans-serif;margin:0;background:var(--paper);color:var(--ink)}
+    .site{max-width:1100px;margin:0 auto;padding:48px 20px}
+    header{display:flex;align-items:center;justify-content:space-between}
+    .brand{display:flex;align-items:center;gap:12px;font-family:Fraunces,Georgia,serif;font-weight:700;color:var(--blue)}
+    .hero{margin-top:48px;background:white;padding:56px;border-radius:12px;box-shadow:0 6px 24px rgba(16,38,60,0.06)}
+    h1{font-family:Fraunces,Georgia,serif;font-size:32px;margin:0;color:var(--blue)}
+    p.lead{margin-top:16px;color:#334155;line-height:1.6}
+    .cta{margin-top:28px;display:flex;gap:12px}
+    .btn{display:inline-block;padding:12px 20px;border-radius:999px;text-decoration:none;font-weight:600}
+    .btn.primary{background:var(--blue);color:white}
+    .btn.ghost{background:transparent;border:1px solid #e6e6e6;color:var(--ink)}
+    footer{margin-top:48px;padding-top:24px;font-size:13px;color:#475569}
+  </style>
 </head>
 <body>
-  <h1>Ann Lite</h1>
-  <p>Official multilingual web platform for Ann Lite — prayer, Bible, Christian reflections, and transparent charitable giving.</p>
-  <p>This is the GitHub Pages export placeholder. The full app is available in the main repo.</p>
-  <p><em>Sa se paj placeholder GitHub Pages. App konplè a disponib nan repo prensipal la.</em></p>
+  <div class="site">
+    <header>
+      <div class="brand"><span style="color:var(--gold);font-size:20px">✝</span><div>Ann Lite</div></div>
+      <nav aria-label="Main navigation"><a href="/bible" style="margin-right:16px;color:var(--ink);text-decoration:none">Bib</a><a href="/prayers" style="margin-right:16px;color:var(--ink);text-decoration:none">Lapriyè</a><a href="/donate" style="color:var(--ink);text-decoration:none">Fè yon don</a></nav>
+    </header>
+
+    <section class="hero" role="banner" aria-labelledby="hero-title">
+      <h1 id="hero-title">Priye. Aprann. Espere. Sèvi.</h1>
+      <p class="lead">Ann Lite se yon platfòm kretyen pou lapriyè, lekti Labib, refleksyon, ak bay ak transparans. Nou bati yon espas ki kalm, aksesib, ak serye pou kominote mondyal la.</p>
+      <div class="cta">
+        <a class="btn primary" href="/prayers">Kòmanse priye</a>
+        <a class="btn ghost" href="/donate">Fè yon don</a>
+      </div>
+    </section>
+
+    <footer>
+      <div>© Ann Lite — Yon platfòm pou priyè, aprantisaj, ak sèvis.</div>
+      <div style="margin-top:8px"><a href="https://github.com/AnnLite/ann-lite-web">Repo sou GitHub</a></div>
+    </footer>
+  </div>
 </body>
 </html>
