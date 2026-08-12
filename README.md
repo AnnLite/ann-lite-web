@@ -50,12 +50,20 @@ Visit `http://localhost:3000` — it redirects to `/ht` by default.
 |---|---|
 | `npm run dev` | Local dev server |
 | `npm run build` | Production build |
+| `npm run export` | Export a static version of the site to `out/` |
+| `npm run deploy:pages` | Run the Pages export flow |
 | `npm run start` | Serve the production build |
 | `npm run lint` | ESLint (`next/core-web-vitals`, `next/typescript`) |
 | `npm run format` | Prettier check |
 | `npm run typecheck` | `tsc --noEmit` |
 | `npm test` | Vitest unit/component tests |
 | `npm run test:e2e` | Playwright E2E + accessibility tests |
+
+## GitHub Pages deployment
+
+This repository includes a Pages workflow that exports the site to static HTML in `out/` and deploys it automatically on pushes to `main`.
+
+> Note: `next export` targets a static build. If you need full backend support for donations, live project data, or contact forms, use a platform that supports Next.js server-side routes such as Vercel or another Node.js host.
 
 ## Project structure
 

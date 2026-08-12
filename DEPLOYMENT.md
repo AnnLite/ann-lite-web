@@ -23,6 +23,16 @@ npm run build
 npm run start   # or your platform's Next.js runtime
 ```
 
+## GitHub Pages static export
+
+This project includes a GitHub Pages workflow that builds and exports a static `out/` site for pages-only publishing.
+
+```bash
+npm run export
+```
+
+Use Pages for a brochure-style deployment only. The `next export` flow is not a replacement for a full Next.js runtime when backend routes, donations, or live API data are required.
+
 ## Recommended production checklist
 
 - [ ] `NEXT_PUBLIC_API_URL` points at the production `ann-lite-api`
